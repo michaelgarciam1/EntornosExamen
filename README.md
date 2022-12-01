@@ -58,7 +58,7 @@ Para hacer un commit desde el repositorio main añadimos un archivo desde github
 A pesar de tener cambios en el main no lo tenemos en nuestro repositorio,por ello debemos usar el comando:  
 
 ~~~
-git git pull origin main
+git pull origin main
 ~~~  
 ![image](https://user-images.githubusercontent.com/114613053/205113951-99132cc7-6d2a-458c-842d-4e0a6710f343.png)  
 
@@ -67,4 +67,74 @@ Vemos los cambios con el dir  :
 
 ![image](https://user-images.githubusercontent.com/114613053/205114109-27db97af-4b04-4e81-b57d-0ac32ea5855a.png)  
 
+# Practica 2
+
+## 1-Vemos todos los commits hechos  
+
+Usando el comando
+~~~
+git  log  --oneline --all
+~~~  
+![image](https://user-images.githubusercontent.com/114613053/205116600-6368a07b-008d-4ad1-bd30-b770b6706d84.png)  
+
+
+## 2-Vemos como esta el readme
+
+Ahora vemos como esta nuestro readme.md actualmente , como usamos CMD ,no
+podemos usar el comando “cat” por ello usamos el comando “type”. Como hemos usado el
+mismo repositorio que la practica 1 , habiamos usado el README.md de memoria.  
+![image](https://user-images.githubusercontent.com/114613053/205116213-d95b677c-5366-4cf5-aa80-7703dbcf425c.png)  
+
+## 3-Vamos al primer commit
+Para ello debemos usar el comando “- Git checkout” con el hash del primer commit:
+~~~
+git checkout 3f97143
+~~~
+![image](https://user-images.githubusercontent.com/114613053/205116892-a755e9ae-27db-4d31-b3d1-be1b7f16691d.png)
+
+## 4-Vemos como estaba el readme en ese instante
+
+usando el comando type vemos el readme.md
+~~~
+type README.md
+~~~
+![image](https://user-images.githubusercontent.com/114613053/205117097-c700cf66-2221-4d74-ab08-1df18d5717d7.png)
+
+## 5-Vemos en que rama estamos actualmente
+
+Volvemos a usar el comando 
+~~~
+git  log  --oneline --all
+~~~  
+![image](https://user-images.githubusercontent.com/114613053/205117407-d5739c8d-638d-45a4-be6d-622ed8d4447a.png)  
+Vemos que el head esta en la rama de initial commit es decir en el primer commit
+
+## 6-nos queremos mover a la primera update del readme.md.
+En nuestro caso movemos el head al commit con el comentario de memoria temporal
+~~~
+git checkout 0803006
+~~~  
+![image](https://user-images.githubusercontent.com/114613053/205117944-1ac2b49d-de9b-449b-8507-53102b3fd43d.png)  
+
+y vemos como estaba el readme en ese momento.
+![image](https://user-images.githubusercontent.com/114613053/205118223-158c9559-2584-4f93-8b90-62f0ac15ae6d.png)  
+que es como estaba la primera parte de la practica sin acabar.
+
+
+## 7-Volvemos a ver en que rama estamos
+~~~
+git  log  --oneline --all
+~~~
+![image](https://user-images.githubusercontent.com/114613053/205118549-df65d009-7de0-4c4e-9fed-94c20d776140.png)
+
+## 8-volvemos a la rama master  
+Para volver a la rama master debemos usar el comando “”git checkout master””
+En mi caso he tenido que hace el checkout al origin/main para ir al main del repositorio de
+github.  
+
+![image](https://user-images.githubusercontent.com/114613053/205118786-6c14e92e-e017-44fb-9149-e15d6bcb07be.png)  
+
+y con git checkout origin/main vemos que el head está en el main  
+
+![image](https://user-images.githubusercontent.com/114613053/205119245-08d26bd2-a52a-4d37-af5a-9764ada26f9c.png)
 
