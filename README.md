@@ -46,5 +46,9 @@ git push origin main
 ~~~  
 ![image](https://user-images.githubusercontent.com/114613053/205112436-17bb0a7a-f88e-498e-a5d6-8308923e5762.png)
 
+## 6- Vemos que los cambios estan en nuestro repositorio main
+![image](https://user-images.githubusercontent.com/114613053/205112708-40c31e1f-a9f3-43df-a367-eb4fb5e6efc1.png)
 
+## Añadimos un commit desde el repositorio main
+Para hacer un commit desde el repositorio main añadimos un archivo desde github
 
