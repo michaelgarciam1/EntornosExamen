@@ -51,4 +51,16 @@ git push origin main
 
 ## Añadimos un commit desde el repositorio main
 Para hacer un commit desde el repositorio main añadimos un archivo desde github
+![image](https://user-images.githubusercontent.com/114613053/205113179-2979fb8a-488c-48cd-a6da-9f14060ed357.png)
+
+## Hacer un pull del main  
+A pesar de tener cambios en el main no lo tenemos en nuestro repositorio,por ello debemos usar el comando:
+~~~
+git git pull origin main
+~~~  
+![image](https://user-images.githubusercontent.com/114613053/205113951-99132cc7-6d2a-458c-842d-4e0a6710f343.png)
+
+Vemos los cambios con el dir  :
+![image](https://user-images.githubusercontent.com/114613053/205114109-27db97af-4b04-4e81-b57d-0ac32ea5855a.png)  
+
 
