@@ -149,5 +149,5 @@ el trabajo en cuestion
 Es el area donde se guardan temporalmente los datos, para luego ser enviados al repositorio  
 
 ## 3-Repositorio local (Directorio .git)  
-Es el repositorio contenedor de archivos, en el cual trabajamos y podemos hacer los cambios necesarios
+Es el repositorio contenedor de archivos, en el cual trabajamos y podemos hacer los cambios locales necesarios
 
