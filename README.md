@@ -136,5 +136,18 @@ github.
 
 y con git checkout origin/main vemos que el head está en el main  
 
-![image](https://user-images.githubusercontent.com/114613053/205119245-08d26bd2-a52a-4d37-af5a-9764ada26f9c.png)
+![image](https://user-images.githubusercontent.com/114613053/205119245-08d26bd2-a52a-4d37-af5a-9764ada26f9c.png)  
+
+
+# 3- Preguntas de teoria  
+
+## 1 -Directorio de trabajo (Working directory)  
+El directorio de trabajo es el directorio donde se esta trabajando es decir , la carpeta donde esta el trabajo en cuestion por ejemplo, C:\Users\Michael\Documents\Git\EntornosExamen, donde entornosExamen es la raiz de las carpetas y los archivos donde residen las cosas necesarias para
+el trabajo en cuestion  
+
+## 2-Área de preparación (Staging area)  
+Es el area donde se guardan temporalmente los datos, para luego ser enviados al repositorio  
+
+## 3-Repositorio local (Directorio .git)  
+Es el repositorio contenedor de archivos, en el cual trabajamos y podemos hacer los cambios necesarios
 
